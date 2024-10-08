@@ -1,23 +1,23 @@
-# YOLOLYTICv8
+# YOLOSEGMENTv8
 
-Phần mềm kiểm thử độ chính xác Object Detection YOLO v8. Chương trình chạy trên Windows 10 x64, có hỗ trợ CUDA.
+Phần mềm kiểm thử độ chính xác Object Segmentation bằng YOLO v8. Chương trình chạy trên Windows 10 x64, có hỗ trợ CUDA.
 
 - CUDA 11.8
 - cuDNN 8.6.0
 
-![](image/yololytic.png)
+![](image/yolosegment.png)
 
 ## Chức năng
 
-1. Detect object trong ảnh tĩnh
+1. Segment object trong ảnh tĩnh
 
-2. Detect object trong folder
+2. Segment object trong folder
 
-3. Detect object trong webcam
+3. Segment object trong webcam
 
-4. Detect object trong video hoặc camera stream
+4. Segment object trong video hoặc camera stream
 
-5. Extract camera frame và bouding box
+5. Segment camera frame và bouding box
 Dùng để retrain
 
 ## Hướng dẫn sử dụng
@@ -32,7 +32,7 @@ Các bạn cần cài đặt:
 
 Sử dụng command sau, lưu ý bạn phải cài đặt YOLO v8 thành công
 
-`!yolo export model='./yolov8n.pt' imgsz=640,640 format=onnx opset=12 simplify=True dynamic=False
+`!yolo export model='./best.pt' imgsz=640,640 format=onnx opset=12 simplify=True dynamic=False
 `
 
 ## Bài viết hướng dẫn chi tiết
