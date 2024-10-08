@@ -5,7 +5,9 @@ Phần mềm kiểm thử độ chính xác Object Segmentation bằng YOLO v8. 
 - CUDA 11.8
 - cuDNN 8.6.0
 
-![](image/yolosegment.png)
+![](image/yolosegment2.jpg)
+
+![](image/yolosegment.jpg)
 
 ## Chức năng
 
